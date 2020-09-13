@@ -1,0 +1,82 @@
+#Large { 
+	width: 728px;
+	height: 945px;
+	background-color: #D1F1FF;
+	margin: auto;
+}
+header {
+	margin:0;
+	width:100%;
+	padding: 10px, 25px, 10px, 25px;
+	background: url(images/Final%20Banner%20Text.png) no-repeat top left;
+	overflow: hidden; /*Removes space between divs*/
+}	
+h1 {
+	font-size: 14px;
+	text-align: center;
+	color: #000000;
+}
+h2 {
+	text-align: center;
+}
+p{
+	text-indent:5px;
+}
+#navigation {
+	font-family: 'Crimson Text', serif;
+	width: 246px;
+	height: 8px;
+	text-align: center;
+	margin: auto;
+	background-color: #FFFF6B;
+	padding-bottom: 13px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+#content {
+	width: 620px;
+	height: 725px;
+	margin: auto;
+	background-color: #FFFF6B;
+}
+#text{
+	width: 480px;
+	margin: auto;
+	font-family: 'Crimson Text', serif;
+}
+#content_l {
+ float: left;
+ overflow: hidden;
+}
+#content_r {
+float: right;
+overflow: hidden;
+}
+#bib {
+	padding-left: 5px;
+	float: left;
+}
+#bib_cont{
+	float: right;
+	width: 310px;
+	height: 725px;
+	background-color: #D7FF60;
+	overflow: hidden;
+}
+footer{
+	text-align: center;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+	color: #007BA4;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: #FFFFFF;
+	background-color: #007BA4;
+}
